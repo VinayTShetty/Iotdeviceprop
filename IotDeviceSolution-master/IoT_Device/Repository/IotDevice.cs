@@ -53,6 +53,6 @@ namespace IotHubDevice.Repository
             registryManager = RegistryManager.CreateFromConnectionString(iothubConnection);
             await registryManager.RemoveDeviceAsync(deviceId);
         }
-        //Comment Added for ther Demo
+        
     }
 }
